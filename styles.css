@@ -1,0 +1,96 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .profile{
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.logo
+{
+height:5vmax ;
+
+}
+
+.profile
+{
+max-width:80% ;
+}
+
+
+.swing {
+    animation: swing ease-in-out 2s infinite alternate;
+    transform-origin: center -20px;
+    float:center;
+   max-width: 10%;
+}
+
+@keyframes swing {
+    0% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
+}
+ .images{
+max-width:100% ;
+ }
+
+.zoom{
+  transition: 1s;
+ 
+}
+
+.zoom:hover{
+  
+    transform: scale(1.20);
+}
+
+.padingx-0{
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.bg-image {
+  background-image: url('img/wall.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-text{
+  background-color: #001025ad;
+}
+
+
+.icolor{
+  color: white;
+}
+
+.baner{
+  background-image: radial-gradient(circle at 50% 120.71%, #799dc7 0, #1c679e 50%, #003676 100%);
+}
+
+.card-bg{
+  background-image: radial-gradient(circle at 50% 120.71%, #799dc7 0, #1c679e 50%, #003676 100%);
+}
+
+.baner-f{
+font-weight:700;
+line-height:none;
+color:white ;
+
+}
+
+.h-90{
+height: 90%;
+
+}
