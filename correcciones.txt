@@ -1,6 +1,0 @@
-Corregir:
-
-Contactos texto de correo en resolucion tablet.
-
-
-fuente de Icofont se carga con los titulos
