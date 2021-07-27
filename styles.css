@@ -33,7 +33,7 @@ max-width:80% ;
     animation: swing ease-in-out 2s infinite alternate;
     transform-origin: center -20px;
     float:center;
-   max-width: 10%;
+   max-width: 10% ;
 }
 
 @keyframes swing {
@@ -93,4 +93,7 @@ color:white ;
 .h-90{
 height: 90%;
 
+}
+.contact-text{
+  font-size:1.1em;
 }
