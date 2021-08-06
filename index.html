@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="author" content="Francisco Hernandez">
+  <meta name="keywords" content="Francisco, Hernandez, web, developer, desarrollador, honduras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.83.1">
+  <meta name="robots" content="index">
+  <meta name="description" content="Francisco Hernandez web page">
   <title>Frank Hernandez - Developer</title>
 
   <!-- Bootstrap core CSS -->
@@ -36,7 +37,7 @@
       style="background-image: radial-gradient(circle at 100% 100%, #799dc7 0, #1c679e 50%, #003676 100%);">
       <div class="container-fluid">
         <img class="img-fluid px-3 logo" src="img/FH2.png" type="image/png">
-        <button  class="navbar-toggler " type="button" data-bs-toggle="collapse"
+        <button id="bh" class="navbar-toggler " type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -292,5 +293,21 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script>
+  const navLinks = document.querySelectorAll('.nav-item')
+  const menuToggle = document.getElementById('navbarNavDropdown')
+
+  navLinks.forEach((i) => {
+    i.onclick = function () {
+      setTimeout(function () {
+        new bootstrap.Collapse(menuToggle)
+        .toggle()
+      }, 1000)
+    }
+  })
+
+
+</script>
 
 </html>
