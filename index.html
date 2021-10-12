@@ -33,7 +33,8 @@
 
   <main>
     <!--navbar -->
-    <nav class="navbar navbar-dark navbar-expand-lg sticky-top "
+   
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top" id="navbar-id"
       style="background-image: radial-gradient(circle at 100% 100%, #799dc7 0, #1c679e 50%, #003676 100%);">
       <div class="container-fluid">
         <img class="img-fluid px-3 logo" src="img/FH2.png" type="image/png">
@@ -63,6 +64,7 @@
         </div>
       </div>
     </nav>
+
     <!--contenedor principal -->
     <div class="container-fluid pt-3 " style="background-color: #001025;">
       <!--Contenedor home -->
@@ -291,23 +293,8 @@
 
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="min/bootstrap.bundle.min.js"></script>
 
-<script>
-  const navLinks = document.querySelectorAll('.nav-item')
-  const menuToggle = document.getElementById('navbarNavDropdown')
-
-  navLinks.forEach((i) => {
-    i.onclick = function () {
-      setTimeout(function () {
-        new bootstrap.Collapse(menuToggle)
-        .toggle()
-      }, 1000)
-    }
-  })
-
-
-</script>
+<script src="min/jquery-3.6.0.min.js"></script>
 
 </html>
